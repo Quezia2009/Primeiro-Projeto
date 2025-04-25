@@ -15,3 +15,15 @@ body{
 header {
     background-color: #ffffff;/*Fundo branco para o cabeçalho*/
 }
+
+/*Seções Gerais*/
+section{
+    padding-bottom: 5rem; /*Espaçamento inferior grande para a seção*/
+
+}
+
+  /*Links de Navegação*/
+  .nav-link{
+    color: #CB6D43; /*Cor marrom-alaranjada para os links*/
+    font-weight: 600;/*Texto em negrito*/
+  }
