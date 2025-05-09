@@ -39,7 +39,7 @@ section {
 }
 
   /*posicionamneto para a imagem à direita*/
-  .img-inicio{
+  .img-inicio {
     position: absolute;
     right: 0;
     top: 18rem;
@@ -97,14 +97,31 @@ h2 {
 
 }
 
-  #galeria{
-    background-color: #F4F4F4;
-  
-}
-
-  .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size:
-
+#galeria {
+  background-color: #f4f4f4;
+  background-size: cover;
+  padding: 4px 0;
+   /*Espaçamento interno para a seção de contato*/
 
   }
+
+.formulario {
+    background-color: #fffff;
+    padding: 2rem;
+    /*Espaçamento interno dentro do formulario*/
+    border-radius:10px;
+    /*Borda arredondada para o formulario*/
+    box-shadow; 0 0 10px rgba(0,0,0,0.1):
+    /*Sombra suave para destacat o formulario*/
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color; #CBD6D43;
+    border: none;
+    font-weight: boldo;
+}
+/* chama a classe do bootstrap para modificar a cor*/
+.form-control {
+    background-color #F1EDEF;
+}
